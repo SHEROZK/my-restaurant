@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my restaurant</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- =====-=== -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"
+      integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500;1,800&family=Lemonada:wght@400;601&display=swap"
+      rel="stylesheet"
+    />
+    <!-- - -->
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/e571a577ed.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- - -->
+    <!-- jsquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar section -->
+
+    <header id="header">
+      <div class="fa-solid fa-burger"></div>
+
+      <a href="" class="logo">
+        <img src="outline_food_bank_black_24dp.png" alt="logo"
+      /></a>
+      <nav class="navb">
+        <ul class="bar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#special">Special</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#dish">Dishes</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li class="fa-solid fa-cart-shopping"> </li>
+  
+        </ul>
+        <div class="cart">
+          <h2 class="cart-tittle">your <span>cart</span></h2>
+              <div class="cart-content">
+
+                <div class="cart-items">
+                  <img src="dish11.jpg" alt="">
+                  <div class="info">
+                    <h4>Lorem, ipsum dolor.</h4>
+                    <div class="p-q">
+                      <h3 class="price">price:10$</h3>
+                      <input type="number " value="1" class="quantity">
+                    </div>
+                  </div>
+                  <i class="fa-solid fa-trash"></i>
+
+                  
+                </div>
+                <div class="cart-items">
+                  <img src="dish1.jpg" alt="">
+                  <div class="info">
+                    <h4>Lorem, ipsum dolor.</h4>
+                    <div class="p-q">
+                      <h3 class="price">price:8$</h3>
+                      <input type="number " value="1" class="quantity">
+                    </div>
+                  </div>
+                  <i class="fa-solid fa-trash"></i>
+
+                  
+                </div>
+                <div class="p">
+                <div class="total">total price:-</div>
+               <button class="buy-but">buy now </button>
+                </div>
+              </div>
+        </div>
+      
+
+
+      </nav>
+    </header>
+
+    <!-- navbar section end -->
+
+    <!--Home  start  -->
+
+    <section id="home" class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h1>food that you can't resist</h1>
+          <h2>enjoy our marvelous taste</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
+            tempore nobis illo reprehenderit saepebr <br />
+            laboriosam nam aliquam est, voluptates voluptate!
+          </p>
+          <a href="#special"> <button>gets started</button></a>
+        </div>
+        <div class="vidcontainer">
+          <video
+            src="pexels-ron-lach-8879537.mp4"
+            autoplay
+            loop
+            class="vid vid1"
+          ></video>
+          <video
+            src="pexels-maksim-goncharenok-6162081.mp4"
+            autoplay
+            loop
+            class="vid vid2"
+          ></video>
+          <video
+            src="Pexels Videos 2832316.mp4"
+            autoplay
+            loop
+            class="vid vid3"
+          ></video>
+        </div>
+        <div class="controls">
+          <div class="dot dot1"></div>
+          <div class="dot dot2"></div>
+          <div class="dot dot3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Home section end -->
+    <!-- special card strt -->
+
+    <section id="special" class="container">
+      <div class="heading center">
+        <h1>Our <span>Special</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+          nobis.
+        </p>
+      </div>
+
+      <div class="card-con">
+        <div class="card">
+          <img src="card1.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+            distinctio consequatur, totam, obcaecati saepe ipsa fugiat et
+            consequuntur quasi alias inventore iusto veritatis voluptates
+            deleniti?
+          </p>
+          <a href=""><button>Read more</button></a>
+        </div>
+
+        <div class="card">
+          <img src="card2.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+            distinctio consequatur, totam, obcaecati saepe ipsa fugiat et
+            consequuntur quasi alias inventore iusto veritatis voluptates
+            deleniti?
+          </p>
+          <a href=""><button>Read more</button></a>
+        </div>
+        <div class="card">
+          <img src="card3.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+            distinctio consequatur, totam, obcaecati saepe ipsa fugiat et
+            consequuntur quasi alias inventore iusto veritatis voluptates
+            deleniti?
+          </p>
+          <a href=""><button>Read more</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- special card end  -->
+
+    <section id="about">
+      <div class="heading">
+        <h1><span>about</span> us</h1>
+      </div>
+      <div class="row">
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            dolores molestiae itaque eaque corporis, <br />
+            totam recusandae? Tenetur assumenda consequatur aspernatur tempora
+            doloribus maiores cum quisquam!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur,
+            rem. Pariatur possimus atque dignissimos a.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, a.
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+            repellendus est cupiditate magni expedita placeat nulla quam dolores
+            a!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
+            quas! Fuga alias placeat sunt obcaecati soluta autem ratione velit
+            fugiat?
+          </p>
+        </div>
+        <div class="image col-md-6">
+          <img src="chef.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- enddd -->
+
+    <section id="dish">
+      <div class="heading">
+        <h1>Our <span>dishes</span></h1>
+      </div>
+
+      <div class="box-con">
+        <div class="box">
+          <img src="dish1.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur? uvue
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish2.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish3.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish4.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish5.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish6.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish7.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish8.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish9.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish10.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish11.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish12.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+
+        <div class="heading head2">
+          <h1>Our <span>veg</span></h1>
+        </div>
+
+        <div class="box">
+          <img src="dish13.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish14.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish15.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish16.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish17.png" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish18.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish19.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="dish20.jpeg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="heading head2">
+          <h1>Our <span>dessert</span></h1>
+        </div>
+
+        <div class="box">
+          <img src="ds1.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="ds2.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="ds3.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="ds4.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="ds5.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="ds6.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="ds7.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="ds8.jpg" alt="" />
+          <div class="info">
+            <h3>dish1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              consectetur?0
+            </p>
+            <a href=""><button>View</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section id="contact">
+        <div class="heading">
+            <h1>con<span>tact</span></h1>
+          </div>
+          <form action="">
+           <div class="inputBox">
+                <input type="text" required>
+                <h3>full name</h3>
+            </div>
+
+            <div class="inputBox">
+                <input type="email" required>
+                <h3>e-mail</h3>
+            </div>
+
+            <div class="inputBox">
+                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <h3>message</h3>
+            </div>
+
+            <input type="submit" value="send">
+            </div>
+          </form>
+    </section>
+
+
+    <section id="footer">
+        <div class="brand">
+            <a href="" class="logo"><img src="outline_food_bank_black_24dp.png" alt=""> </a>
+      <div class="icon">
+          <a href=""class="fa-brands fa-facebook"></a>
+          <a href="" class="fa-brands fa-instagram-square"></a>
+          <a href=""class="fa-brands fa-twitter" ></a>
+      </div>
+      <h1> &copy; copyright @ 2020 my<span> restaurant</span></h1>
+      
+    </section>
+
+    <script>
+      $(document).ready(function () {
+        $(".fa-burger").click(function () {
+          $(this).toggleClass("fa-times");
+          $("nav").toggleClass("nav-toggle");
+        });
+        $("nav ul li a").click(function () {
+          $(".fa-burger").removeClass("fa-times");
+          $("nav").removeClass("nav-toggle");
+        });
+      });
+
+
+
+      // shopping cart 
+      $(document).ready(function () {
+        $(".fa-cart-shopping").click(function () {
+          $(this).toggleClass("fa-times");
+          $(".cart").toggleClass("cart-toggle");
+        });
+        $(".cart").click(function () {
+          $(".fa-cart-shopping").removeClass("fa-times");
+          $(".cart").removeClass("cart-toggle");
+        });
+      });
+
+      // home vid slider==
+
+      $(".dot1").click(function () {
+        $(".vid1").css("display", "block");
+        $(".vid2").css("display", "none");
+        $(".vid3").css("display", "none");
+      });
+      $(".dot2").click(function () {
+        $(".vid2").css("display", "block");
+        $(".vid1").css("display", "none");
+        $(".vid3").css("display", "none");
+      });
+      $(".dot3").click(function () {
+        $(".vid3").css("display", "block");
+        $(".vid1").css("display", "none");
+        $(".vid2").css("display", "none");
+      });
+
+      $(window).on("scroll load", function () {
+        if ($(window).scrollTop() > 10) {
+          $("#header").addClass("header-active");
+        } else {
+          $("#header").removeClass("header-active");
+        }
+      });
+    </script>
+  </body>
+</html>
